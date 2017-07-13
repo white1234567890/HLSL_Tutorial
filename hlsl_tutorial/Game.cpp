@@ -45,6 +45,8 @@ LRESULT Game::messageHandler(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 		case WM_KEYDOWN:
 		case WM_SYSKEYDOWN:
 			input->keyDown(wParam);
+			if(input->wasKeyPressed(ESC_KEY))
+				PostQuitMessage(0);
 			return 0;
 
 			//Key is released
