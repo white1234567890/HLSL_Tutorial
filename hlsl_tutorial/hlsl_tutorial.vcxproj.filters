@@ -15,6 +15,7 @@
     </Filter>
     <Filter Include="ShaderFile">
       <UniqueIdentifier>{de86286d-0827-449e-8d97-1953dc283309}</UniqueIdentifier>
+      <ParseFiles>true</ParseFiles>
     </Filter>
   </ItemGroup>
   <ItemGroup>
